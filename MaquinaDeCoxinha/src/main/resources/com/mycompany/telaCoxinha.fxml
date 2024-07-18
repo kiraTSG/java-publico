@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.MaquinaCoxinha">
+   <children>
+      <Button layoutX="785.0" layoutY="318.0" mnemonicParsing="false" onAction="#ComprarUnid" text="Comprar unidade">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="249.0" layoutY="318.0" mnemonicParsing="false" onAction="#Abastecer" text="Abastecer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="694.0" layoutY="35.0" text="Maquina Coxinha">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="136.0" text="Quantidade Coxinha">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="campoQuantCoxinha" layoutX="228.0" layoutY="133.0" />
+      <TextField fx:id="campoSaida" layoutX="733.0" layoutY="133.0" prefHeight="25.0" prefWidth="52.0" />
+      <Label layoutX="696.0" layoutY="107.0" text="Quantidade Coxinha">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="623.0" layoutY="318.0" mnemonicParsing="false" onAction="#Comprar" text="Comprar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="campoQuantVenda" layoutX="587.0" layoutY="293.0" promptText="Quantidade de Coxinha" />
+      <Label layoutX="265.0" layoutY="48.0" text="Adimin">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
